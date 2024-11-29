@@ -19,7 +19,7 @@ for i in block_widths:
 
 print(max_blocks)
 
-# 14行目の "<="" がエラーの原因 (TypeError: '<=' not supported between instances of 'list' and 'int')
+# 14行目の "<=" がエラーの原因 (TypeError: '<=' not supported between instances of 'list' and 'int')
 # おそらく, 9行目の "blocks_widths" が list なのに対し, 4行目の "L" が int のため.
 # つまり, "block_widths" と "L" では型？が異なるため, "<=" を使えない？
 # → list を int に変換する方法を探す？
