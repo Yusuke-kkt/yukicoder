@@ -23,3 +23,6 @@ print(max_blocks)
 # おそらく, 9行目の "blocks_widths" が list なのに対し, 4行目の "L" が int のため.
 # つまり, "block_widths" と "L" では型？が異なるため, "<=" を使えない？
 # → list を int に変換する方法を探す？
+
+# sort(): リスト内の数値を昇順に整列
+# random.randint(a, b): a ~ b の数値をランダムに生成
