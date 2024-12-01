@@ -25,4 +25,4 @@ print(max_blocks)
 # → list を int に変換する方法を探す？
 
 # sort(): リスト内の数値を昇順に整列
-# random.randint(a, b): a ~ b の数値をランダムに生成
+# random.randint(a, b): a ~ b の間で数値をランダムに生成
