@@ -11,8 +11,6 @@ print(math.ceil(max(numbers) - min(numbers)))
 # 何が違う？
 # numbers = list(map(int, input().split())) → できる
 # numbers = [map(int, input().split())] → できない
-
-# numbers = list(int(input()) for i in range(N))
- 
-
+# numbers = list(int(input()) for i in range(N)) → できる
+# numbers = [int(input) for i in range(N)] → できる
 
