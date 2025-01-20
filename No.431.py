@@ -1,3 +1,5 @@
+# yukicoder_no.431
+
 D = list(map(int, input().split()))
 S = int(input())
 
