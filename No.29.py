@@ -3,9 +3,9 @@
 item_lis = []
 power_up_cnt = 0
 
-N = int(input())
+the_number_of_encounter = int(input())
 
-for i in range(N):
+for i in range(the_number_of_encounter):
     a, b, c = map(int, input().split())
     item_lis.append(a)
     item_lis.append(b)
