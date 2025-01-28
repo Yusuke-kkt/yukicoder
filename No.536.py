@@ -8,6 +8,8 @@ if ID[-2:] == "ai":
 else:
     print(ID + "-AI")
 
+# [start:stop]: インデックスを渡して文字列の位置を指定
+
 
 # 別解
 ID = input()
